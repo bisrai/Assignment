@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* ---------------------------------Main-section --------------------------------- */
+.title {
+    text-align: left;
+    font: normal normal 600 30px/30px Cormorant SC;
+    letter-spacing: 0px;
+    color: #FF3147;
+    text-transform: uppercase;
+}
+
+.titleOne {
+
+    text-align: left;
+    font: normal normal bold 50px/80px Cormorant SC;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.p-One {
+    text-align: left;
+    font: normal normal normal 14px/30px Poppins;
+    letter-spacing: 0px;
+    color: #000000;
+}
+
+.btn {
+    background: #FF3147 0% 0% no-repeat padding-box;
+    border-radius: 2px;
+
+    text-align: left;
+    font: normal normal 600 14px/26px Poppins;
+    letter-spacing: 1.4px;
+    color: #FFFFFF;
+}
+
+.btn:hover {
+    color: #FFFFFF;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+img {
+    width: 487px;
+    height: 637px;
+    /* background: transparent url('img/hero.png') 0% 0% no-repeat padding-box; */
+    opacity: 1;
+}
+
+/* ---------------------------------services-section  ---------------------------------*/
+.item {
+    margin-bottom: 30px;
+}
+
+.item .box {
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 356px;
+    position: relative;
+    overflow: hidden;
+}
+
+.item .cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    transition: opacity 0.15s ease-in;
+    opacity: 0;
+    padding-top: 80px;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+}
+
+.item:hover .cover {
+    opacity: 1;
+    background-color: #FF3147;
+}
+
+.servicesTitle {
+    text-align: left;
+    font: normal normal 600 24px/26px Cormorant SC;
+    letter-spacing: 0px;
+    color: #FF3147;
+    opacity: 1;
+}
+
+.servicesTwo {
+    text-align: left;
+    font: normal normal bold 41px/55px Cormorant SC;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.servicesImg {
+    /* width: 260px; */
+    height: 356px;
+    border-radius: 5px;
+}
+
+.rectangle {
+    width: 260px;
+    height: 356px;
+    background: #FF3147 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+
+.rectangle img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 1.3rem;
+}
+
+.rectangleTitle {
+    font: normal normal 600 20px/26px Cormorant SC !important;
+    letter-spacing: 0px;
+}
+
+.rectanglePara {
+    font: normal normal normal 11px/30px Poppins !important;
+    letter-spacing: 0px;
+}
+
+.btnTwo {
+
+    background: #F4F4F4 0% 0% no-repeat padding-box;
+    border-radius: 2px;
+    text-align: left;
+    font: normal normal 600 14px/26px Poppins;
+    letter-spacing: 1.4px;
+    color: #FF3147;
+}
+
+.btnTwo:hover {
+    color: #FF3147;
+}
+
+/*--------------------------------- Project-section--------------------------------- */
+.icon {
+    width: 60px;
+    height: 60px;
+}
+
+.projectImg {
+    width: 710px;
+    height: 447px;
+}
+
+.cardHover:hover {
+    background-color: #FF3147 !important;
+    color: white !important;
+}
+
+/*--------------------------------- Growth-section ---------------------------------*/
+.box {
+    width: 257px;
+    height: 213px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+}
+
+.box:hover {
+    box-shadow: 3px 6px 20px #672C2C1F;
+}
+
+.box i {
+    font-size: 2rem;
+    color: #FF3147;
+    margin-top: 1.9rem;
+}
+
+.box p {
+    font-size: 2.9rem;
+}
+
+/* about-section */
+.quote {
+    top: 0px;
+    left: 0px;
+    width: 64px;
+    height: 45px;
+    /* background: transparent url('assets/Quotemarks-left.svg') 0% 70% no-repeat padding-box;  */
+    background: transparent url(assets/Quotemarks-left.png) 0% 70% no-repeat;
+}
+
+/* ---------------------------------footer-section ---------------------------------*/
+
+.footer {
+    height: 260px;
+    background: url(assets/NoPath.png)0% 0% no-repeat padding-box;
+
+}
+
+.footerImg {
+    height: 60px;
+    width: 100%;
+    margin-top: 7rem;
+}
+
+/*--------------------------------- contact-section --------------------------------- */
+.contact {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.btnContact {
+    padding: 0.8rem 12.5rem !important;
+}
